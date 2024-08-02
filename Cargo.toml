@@ -1,0 +1,19 @@
+[package]
+name = "auch"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4"
+ahash = "0.8.11"
+bytemuck = { version = "1.16.3", features = ["derive"] }
+env_logger = "0.11.5"
+flume = "0.11.0"
+futures = "0.3.30"
+glam = "0.28.0"
+log = "0.4.22"
+png = "0.17.13"
+pollster = "0.3.0"
+tobj = "4.0.2"
+wgpu = "22.1.0"
+
